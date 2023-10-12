@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 153px;
+}
+.project{
+    width: 1280px;
+    height: 70px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.project h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+.all{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+.imgs11{
+    position: relative;
+  width: 310px;
+  height: 206px;
+}
+
+.imgs{
+    width: 310px;
+    height: 206px;
+}
+.imgs img{
+    width: 310px;
+    height: 206px;
+}
+.img1{
+position: absolute;
+top: 0;
+}
+.img1 p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+width: 150px;
+height: 40px;
+background-color: black;
+}
+
+
+.projects1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.project1{
+    padding-top: 20px;
+    width: 1280px;
+    height: auto;
+}
+.project1 h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.project1 p{
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.persons img{
+    width: 100%;
+    height: auto;
+}
+.persons{
+    position: relative;
+    padding-top: 30px;
+    width: 309px;
+    height: 430px;
+}
+.texts{
+    position: absolute;
+top: 57%;
+}
+.texts h3{
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.text1 p{
+    padding-top: 10px;
+    color: #666666;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.contact{
+    position: absolute;
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 39px;
+    cursor: pointer;
+}
+.contact h3{
+    position: absolute;
+    left: 40%;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.allpersons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.contact:hover{
+    background-color: #cecece;
+}
+@media screen and (min-width: 300px) and (max-width:661px) {
+    .allpersons{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (min-width: 661px) and (max-width:992px) {
+    .allpersons{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
